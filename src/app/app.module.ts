@@ -7,6 +7,7 @@ import { Fecha_ActualComponent } from './fecha_actual/fecha_actual.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { ViewmodeloComponent } from './viewmodelo/viewmodelo.component';
 import { EjmetodoComponent } from './ejmetodo/ejmetodo.component';
+import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybinding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EjmetodoComponent } from './ejmetodo/ejmetodo.component';
     Fecha_ActualComponent,
     CopyrightComponent,
     ViewmodeloComponent,
-    EjmetodoComponent
+    EjmetodoComponent,
+    EjpropertybindingComponent
   ],
   imports: [
     BrowserModule,
