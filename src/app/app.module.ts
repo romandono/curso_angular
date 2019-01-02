@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Fecha_ActualComponent } from './fecha_actual/fecha_actual.component';
 import { CopyrightComponent } from './copyright/copyright.component';
+import { ViewmodeloComponent } from './viewmodelo/viewmodelo.component';
+import { EjmetodoComponent } from './ejmetodo/ejmetodo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Fecha_ActualComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    ViewmodeloComponent,
+    EjmetodoComponent
   ],
   imports: [
     BrowserModule,
