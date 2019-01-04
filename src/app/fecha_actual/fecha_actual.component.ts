@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 @Component ({
   selector: 'app-fecha_actual',
   template: `
-    <p>El resultado es {{ resultado | number: '3.2-2' }}</p>
+    <p>La cotización actual del dolar es de {{ dolareuro | currency: 'EUR': true }}</p>
   `,
   styleUrls: ['./fecha_actual.component.css']
 })
 
 export class Fecha_ActualComponent {
-  resultado: number = 1.148;
+  dolareuro: number = 0.88;
 }
